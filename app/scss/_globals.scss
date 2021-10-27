@@ -48,8 +48,63 @@ a, a:visited, a:hover {
   }
 
 #contact h3 {
-    color: rgb(68, 97, 177);
+    color: $newYorkPink;
+    padding-bottom: 10px;
+    text-align: center;
     display: block;
     font-size: 30px;
     font-weight: 400;
+  }
+
+.container {
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+  }
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    text-rendering: optimizeLegibility;
+  }
+
+fieldset {
+    border: medium none !important;
+    margin: 0 0 10px;
+    min-width: 100%;
+    padding: 0;
+    width: 100%;
+  }
+
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact textarea {
+  width: 100%;
+  border: 1px solid $newYorkPink;
+  background: $white;
+  margin: 0 0 5px;
+  padding: 10px;
+}
+
+#contact textarea {
+    height: 100px;
+    max-width: 100%;
+    resize: none;
+  }
+
+#contact button[type="submit"] {
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    background:$newYorkPink;
+    color: $white;
+    margin: 0 0 5px;
+    padding: 10px;
+    font-size: 15px;
   }
