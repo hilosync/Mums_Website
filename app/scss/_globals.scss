@@ -38,3 +38,18 @@ a, a:visited, a:hover {
         align-items: center;
     }
 }
+
+// Contact form
+
+#contact {
+    background: $white;
+    padding: 25px;
+    margin: 50px 0;
+  }
+
+#contact h3 {
+    color: rgb(68, 97, 177);
+    display: block;
+    font-size: 30px;
+    font-weight: 400;
+  }
