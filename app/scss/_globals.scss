@@ -10,7 +10,7 @@ html {
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Playfair Display', serif;
     font-size: $font-med;
     color: $newYorkPink;
     line-height: normal;
@@ -39,6 +39,20 @@ a, a:visited, a:hover {
     }
 }
 
+//Visibility
+
+.hide-for-mobile {
+  @include breakpoint-down(medium){
+    display: none;
+  }
+}
+
+.hide-for-desktop {
+  @include breakpoint-up(large){
+    display: none;
+  }
+}
+
 // Contact form
 
 #contact {
@@ -54,6 +68,7 @@ a, a:visited, a:hover {
     display: block;
     font-size: $font-large;
     font-weight: 400;
+    word-spacing: 1px;
   }
 
 .container {
