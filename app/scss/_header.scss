@@ -2,7 +2,8 @@
 
 
     nav {
-        padding: 25px;
+        padding: 38px;
+        margin-right: 120px;
     }
     &__logo {
 
@@ -27,7 +28,10 @@
 
     &__links {
         a {
-            font-size: $font-small;
+            font-size: $font-med;
+            &:not(:last-child) {
+                margin-right: 30px;
+            }
 
         }
     }

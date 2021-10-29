@@ -139,7 +139,8 @@ input {
 }
 
 .header nav {
-  padding: 25px;
+  padding: 38px;
+  margin-right: 120px;
 }
 
 .header__menu > span {
@@ -154,6 +155,10 @@ input {
 }
 
 .header__links a {
-  font-size: 0.9rem;
+  font-size: 1.2rem;
+}
+
+.header__links a:not(:last-child) {
+  margin-right: 30px;
 }
 /*# sourceMappingURL=style.css.map */
