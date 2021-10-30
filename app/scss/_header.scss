@@ -1,9 +1,11 @@
 .header {
-
+    border-bottom: 1px solid $newYorkPink;
 
     nav {
-        padding: 38px;
-        margin-right: 120px;
+        padding: 2.375rem 2.8125rem;
+        margin-right: 6.875rem;
+        margin-left: 0.9375rem;
+        
     }
     &__logo {
 
@@ -30,7 +32,12 @@
         a {
             font-size: $font-med;
             &:not(:last-child) {
-                margin-right: 30px;
+                margin-right: 35px;
+            }
+
+            &:hover {
+                color: $lightPink;
+                transition: color 200ms ease-in-out;
             }
 
         }
