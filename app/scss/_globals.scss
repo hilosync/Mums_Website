@@ -21,6 +21,16 @@ a, a:visited, a:hover {
     color: $newYorkPink;
 }
 
+// Spacing
+
+.container {
+  padding-top:2.8125rem;
+  padding-bottom:2.8125rem;
+
+  margin-right: 6.875rem;
+  margin-left: 0.9375rem;
+}
+
 //Flexbox
 
 .flex {
